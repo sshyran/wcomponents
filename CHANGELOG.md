@@ -17,6 +17,8 @@
 
 
 # Release 1.2.2
+## API Changes
+* The Seleniun API has been rewritten to better support client-side testing of WComponents. see     https://github.com/BorderTech/wcomponents/wiki/Testing for more information.
 ## Bug Fixes
 * Fixed a bug in `com.github.bordertech.wcomponents.subordinate.AbstractCompare` which resulted in Subordinate controls returning an incorrect value if the control was in a read-only state #780.
 * Fixed a newly introduced bug which caused textareas to fail to accept newlines in IE11 #785.
